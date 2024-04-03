@@ -113,7 +113,6 @@ class Produto {
         let tbody = document.getElementById('tbody');
         tbody.innerHTML = '';
 
-        //for (let i = 0; i < this.arrayProdutos.length; i++) {
         for (let i = this.arrayProdutos.length - 1; i >= 0; i--) {
             let tr = tbody.insertRow();
 
